@@ -1,0 +1,32 @@
+/**
+ * EmojiPicker by csegundo
+ * emoji.picker.css
+ * Copyright (c) 2021 [Carlos](https://github.com/csegundo/EmojiPicker)
+ */
+
+input[data-emoji-picker]{
+    padding: 5px 37px 5px 10px !important;
+}
+
+.emoji-picker-element{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.emoji-picker-element .picker{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #aaaaaa;
+    background-color: #f3f3f3;
+    border-radius: 3px;
+    position: absolute;
+    top: 3px;
+    right: 4px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.emoji-picker-element .picker::before{
+    content: ":)";
+}
